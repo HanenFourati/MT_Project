@@ -1,0 +1,47 @@
+   .custumercare_style {
+        padding: 4%;
+        background-color: whitesmoke;
+    } 
+    .custumercare_tabs_section_style{
+        padding: 6%;
+    }
+    button{
+        font-size: 10px;
+        background-color: whitesmoke;
+        border: none;
+
+    }
+    .question_answer_style{
+        border-top: 1px solid black;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .dropdown-btnsyn {
+        padding: 16px 10px 10px 16px;
+        text-decoration: none;
+        font-size: 15px;
+        display: block;
+        border: none;
+        background: none;
+        cursor: pointer;
+        outline: none;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    .dropdown-containersyn {
+        display: none;
+    }
+    .tab-list {
+        border-bottom: 1px solid white;
+        /* border-top: 1px solid #ccc; */
+    }
+    .tab-list-item {
+        display: inline-block;
+        list-style: none;
+        margin-bottom: -1px;
+        padding: 0.5rem 0.75rem;
+    }
+    .tab-list-active {
+        background-color: whitesmoke;
+        border-bottom: 10px solid #d80808;
+    }

@@ -1,0 +1,22 @@
+ .product_information_style{
+     display: flex;
+     flex-direction: row;
+     padding: 2%;
+     align-items: center;
+     background-color: whitesmoke;
+ }
+ #imageone, #imagetwo, #imagethree, #imagefour, #imagefive{
+     width:70%;
+     height: 70%;
+     border: 1px solid black;
+ }
+ .product_font_information_style{
+
+    font-family: 'Dancing Script', cursive;
+ }
+ #display_product_colored_div_style{
+     width: 10%;
+     height: 100%;
+     background-color: black;
+     
+ }

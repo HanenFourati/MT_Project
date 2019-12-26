@@ -1,0 +1,37 @@
+ .instagramfeed_style{
+     padding-bottom: 1%;
+ }
+ .instagramfeed_style_parttwo{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;  
+ }
+ .instagramfeed_style_partone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+    font-family: 'Dancing Script', cursive;
+ }
+ .instagramfeed_card_photo_style{
+     height: 300px;
+     width: 300px;
+     border-radius: 5px;
+     padding-bottom: 4%;
+ }
+ .instagramfeed_card_photo_style:hover{
+    transform: scale(1.1); 
+ }
+ .instagramfeed_card_heart_style{
+    background: white;
+    color: white;
+    animation: super-rainbow 15s infinite alternate linear; 
+ }
+ @keyframes super-rainbow { 
+    20%   { color: red; } 
+    30%  { color: orange; }
+    40%  { color: yellow; }
+    60%  { color: green; }
+    80%  { color: blue; }
+    100% { color: violet; }
+}

@@ -1,0 +1,22 @@
+  .navBar_style{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  } 
+  #admin_navbar_logo_style{
+    padding-left: 10px;
+    padding-top: 10px;
+   }
+  .admin_navbar_links_style{
+    width: 40%;
+   }
+  .admin_navbar_logo_style{
+    width: 20%;
+  }
+  .admin_navbar_account_style{
+      width: 30%;
+  }

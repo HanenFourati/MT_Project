@@ -1,0 +1,25 @@
+    .aboutus_style{
+        padding: 6%;
+        text-align: center;
+    }
+    .aboutus_title_style{
+        border-bottom: 1px solid black;
+    }
+    .aboutus_parts_style{
+        padding: 20px;
+    }
+    .aboutus_image_style{
+        height: 300px;
+        border: 1px solid black;
+        padding: 5px;
+    }
+    .aboutus-paragraph_style{
+        padding-top: 2%;
+        font-family: 'Dancing Script', cursive;
+    }
+    .aboutus_team_style{
+        padding: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }

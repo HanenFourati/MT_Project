@@ -1,0 +1,24 @@
+input[type=text] {
+    height: 44px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-appearance: none;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+.addevent_model_style{
+    padding: 7%;
+}
+.addevent_button_style{
+    border: 0px;
+    color: #fff;
+    text-shadow: 0 1px rgba(0,0,0,0.1); 
+    background-color: black;
+    font-size: 16px;
+    width: 100%;
+    padding: 1%;
+  }

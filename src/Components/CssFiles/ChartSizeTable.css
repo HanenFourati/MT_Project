@@ -1,0 +1,27 @@
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
+  th{
+
+    background-color: white;
+  }
+  .size_chart_style{
+    padding: 90px;
+    background-color: whitesmoke;
+  }
+  #size_chart_title_style{
+      text-align: center;
+      border-bottom: 1px solid gray;
+      padding: 4px;
+  }

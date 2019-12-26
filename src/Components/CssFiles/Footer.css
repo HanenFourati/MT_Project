@@ -1,0 +1,27 @@
+  a {  
+     color: #333;
+     font-size: 15x;
+     padding: 15px;
+  }
+  a:link {
+     text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  .Footer_style{
+      text-align: center;
+      border-top: 1px solid lightgrey;
+  }
+  .Footer_row_style{ 
+     padding-bottom: 40px;
+  }
+  .firstrow{
+    padding-top: 50px;
+    font-weight: bold;
+  }
+  .Footer_fourth_row_style{
+      background-color: black;
+      color: white;
+      padding: 2px;
+  }

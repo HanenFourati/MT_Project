@@ -1,0 +1,29 @@
+ .newsLetter_style{
+     padding: 3% 15%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+ }
+ .newsLetter_style_parttwo{
+     background-color: rgb(236, 236, 236);
+     padding: 5%;
+     text-align: center; 
+     width: 60%;
+ }
+ .newsLetter_style_partone{
+     width: 40%;
+ }
+ .newsLetter_input_field{
+    border: 1px solid black;
+    padding: 10px;
+ }
+ .newsLetter_button{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+ }
+ .newsLetter_para_style_parttwo{
+    font-family: 'Dancing Script', cursive;
+ }

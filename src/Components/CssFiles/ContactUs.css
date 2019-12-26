@@ -1,0 +1,30 @@
+ .contactus_style{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     padding: 100px;
+
+ }
+ .contactus_div_style{
+    background-color: whitesmoke;
+ }
+ .contactus_box_style{
+     border: 1px solid black;
+     width: 30%;
+     padding: 10px;
+     font-size: 20px;
+     text-align: center;
+ }
+ .contactus_title_style{
+     color: black;
+ }
+ .contactus_paragraph_style{
+    font-family: 'Dancing Script', cursive;
+ }
+ .title_para_style{
+     text-align: center;
+     padding-top: 4%;
+ }
+ .contactus_icon_style{
+    font-size: large;
+ }
