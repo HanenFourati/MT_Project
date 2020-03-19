@@ -2,9 +2,13 @@
      padding-bottom: 1%;
  }
  .instagramfeed_style_parttwo{
-     display: flex;
+     /* display: flex;
      flex-direction: row;
-     justify-content: space-around;  
+     justify-content: space-around;   */
+     padding: 1%;
+     display: grid;
+     grid-gap: 5px 5px;
+     grid-template-columns: auto auto auto auto;
  }
  .instagramfeed_style_partone{
     display: flex;
@@ -35,3 +39,10 @@
     80%  { color: blue; }
     100% { color: violet; }
 }
+@media screen and (max-width: 1300px) {
+    .instagramfeed_style_parttwo{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+  }

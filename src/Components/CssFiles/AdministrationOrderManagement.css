@@ -78,3 +78,23 @@
   font-size: 16px;
   width: 100%;
 }
+@media screen and (max-width: 992px) {
+
+  .admin_order_decoration_style{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+  }
+  .admin_order_flip-box {
+    width: 100%;
+  }
+  #admin_order_product_image_decoration{
+    width: 100%;
+  }
+  .admin_order_button_section_style{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+  }
+ }

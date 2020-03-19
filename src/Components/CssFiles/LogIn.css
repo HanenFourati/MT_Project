@@ -46,3 +46,9 @@
       width: 100%;
       font-family: 'Dancing Script', cursive;
   }
+  @media screen and (max-width: 992px) {
+    .login-card {
+      margin: 0% 0%;  
+      width: auto;
+    }
+   }

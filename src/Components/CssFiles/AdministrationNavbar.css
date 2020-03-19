@@ -20,3 +20,18 @@
   .admin_navbar_account_style{
       width: 30%;
   }
+  @media screen and (max-width: 992px) {
+    .navBar_style{
+      display: flex;
+      flex-direction: column;
+    } 
+    .admin_navbar_links_style{
+      width: auto;
+     }
+    .admin_navbar_logo_style{
+      width: auto;
+    }
+    .admin_navbar_account_style{
+        width: auto;
+    }
+   }

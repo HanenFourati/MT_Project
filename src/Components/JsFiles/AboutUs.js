@@ -18,8 +18,8 @@ const AboutUs = () =>   <div className='aboutus_style'>
                            })}
                         <div style={{padding: "2%"}}><h4>Meet out team</h4>
                         <div className="aboutus_team_style">
-                        <div><img src={i1} className='aboutus_image_style'/> <p>Co-Founder </p></div>
-                        <div><img src={i2} className='aboutus_image_style'/> <p>Co-Founder </p></div>
+                        <div><img src={i1} className='aboutus_image_style'/> <p>Iness Dalhoumi</p> <p>Co-Founder </p> </div>
+                        <div><img src={i2} className='aboutus_image_style'/> <p> Malek Nassraoui</p><p>Co-Founder </p></div>
                         </div>
                         </div> 
                         </div>

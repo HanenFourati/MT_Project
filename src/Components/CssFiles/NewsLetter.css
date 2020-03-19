@@ -13,13 +13,14 @@
  .newsLetter_style_partone{
      width: 40%;
  }
- .newsLetter_input_field{
+ .newsLetter_style_parttwo > input[type="text"]{
     border: 1px solid black;
     padding: 10px;
+    width: 60%;
  }
  .newsLetter_button{
     text-align: center;
-    padding: 10px;
+    padding: 13px;
     color: white;
     background-color: black;
     border: 1px solid black;
@@ -27,3 +28,20 @@
  .newsLetter_para_style_parttwo{
     font-family: 'Dancing Script', cursive;
  }
+ @media screen and (max-width: 1300px) {
+    .newsLetter_style{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(236, 236, 236);
+    }
+    .newsLetter_style_parttwo{
+        width: 100%;
+    }
+    .newsLetter_style_partone{
+        width: auto;
+    }
+    #NewsletterImage{
+        width: 100%;
+    }
+  }

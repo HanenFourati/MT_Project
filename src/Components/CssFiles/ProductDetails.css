@@ -20,3 +20,17 @@
      background-color: black;
      
  }
+ @media screen and (max-width: 992px) {
+    .product_information_style{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #display_product_colored_div_style{
+        display: none;
+        
+    }
+    #imageone, #imagetwo, #imagethree, #imagefour, #imagefive{
+        width: 100%;
+    }
+   }

@@ -38,3 +38,8 @@ input[type=text] {
   #product_image_style{
       width: 60%;
   }
+  @media screen and (max-width: 992px) {
+    #product_image_style{
+        display: none;
+    }
+   }

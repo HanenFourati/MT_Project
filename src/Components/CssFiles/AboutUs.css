@@ -23,3 +23,9 @@
         flex-direction: row;
         justify-content: space-evenly;
     }
+    @media screen and (max-width: 992px) {
+        .aboutus_team_style{
+            display: flex;
+            flex-direction: column;
+        }
+       }

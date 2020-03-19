@@ -13,7 +13,7 @@ class NewsLetter extends Component{
         return(
             <div className="newsLetter_style">
                 <div className="newsLetter_style_partone">
-                   <img src={newsletterphoto} alt=""/> 
+                   <img src={newsletterphoto} id="NewsletterImage" alt=""/> 
                 </div>
                 <div className="newsLetter_style_parttwo">
                     <h3> SIGN UP FOR 10% OFF</h3>

@@ -1,51 +1,61 @@
-    .Header_style{
-        position: relative;
-        text-align: center;
-        color: white;
-    }
-    .Header_background_style{
-        background-image: url("../../Images/bg2.png"); /* customize the head image back ground */
-        height: 500px;
-        width: 100%;
-        animation: slide 40s linear infinite;
-  
-    
-    }
-    @keyframes slide {
-        from { background-position: 0 0; }
-        to { background-position: -850px 0; }
-    }
-    
+ .Header_style{
+     position: relative;
+     text-align: center;
+     color: white;
+ }
+ .Header_background_style{
+     background-image: url("../../Images/bg2.png"); /* customize the head image back ground */
+     height: 500px;
+     width: 100%;
+     animation: slide 40s linear infinite;
+
+ 
+ }
+ @keyframes slide {
+     from { background-position: 0 0; }
+     to { background-position: -850px 0; }
+ }
+ 
+ .centered {
+     position: absolute;
+     top: 70%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background: rgba(255, 255, 255);
+     color: black;
+     text-align: center;
+     padding: 30px 50px;
+     font-family: 'Dancing Script', cursive;
+   }
+   .typewriter  {
+     overflow: hidden; /* Ensures the content is not revealed until the animation */
+     border-right: 2px solid black; /* The typwriter cursor */
+     white-space: nowrap; /* Keeps the content on a single line */
+     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+     letter-spacing: 2px; /* Adjust as needed */
+     animation: 
+       typing 3.5s steps(20, end),
+       blink-caret .5s step-end infinite;
+   }
+   
+   /* The typing effect */
+   @keyframes typing {
+     from { width: 0 }
+     to { width: 100% }
+   }
+   
+   /* The typewriter cursor effect */
+   @keyframes blink-caret {
+     from, to { border-color: transparent }
+     50% { border-color: black }
+   }
+   @media screen and (max-width: 1000px) {
     .centered {
-        position: absolute;
-        top: 70%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background: rgba(255, 255, 255);
-        color: black;
-        text-align: center;
-        padding: 30px 50px;
-        font-family: 'Dancing Script', cursive;
-      }
-      .typewriter  {
-        overflow: hidden; /* Ensures the content is not revealed until the animation */
-        border-right: 2px solid black; /* The typwriter cursor */
-        white-space: nowrap; /* Keeps the content on a single line */
-        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-        letter-spacing: 2px; /* Adjust as needed */
-        animation: 
-          typing 3.5s steps(20, end),
-          blink-caret .5s step-end infinite;
-      }
-      
-      /* The typing effect */
-      @keyframes typing {
-        from { width: 0 }
-        to { width: 100% }
-      }
-      
-      /* The typewriter cursor effect */
-      @keyframes blink-caret {
-        from, to { border-color: transparent }
-        50% { border-color: black }
-      }
+      top: 40%;
+    }
+   }
+   @media screen and (max-width: 1300px) and   (min-width: 1001px){
+    .centered {
+      top: 30%;
+    }
+   }

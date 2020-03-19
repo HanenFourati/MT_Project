@@ -25,3 +25,16 @@ table, td, th {
       border-bottom: 1px solid gray;
       padding: 4px;
   }
+
+  @media screen and (max-width: 992px) {
+    .size_chart_style{
+      padding: 0px;
+      background-color: whitesmoke;
+    }
+    table {
+      width: 99%;
+    }
+    th, td {
+      padding: 1px;
+    }
+   }

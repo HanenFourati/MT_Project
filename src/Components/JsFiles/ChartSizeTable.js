@@ -20,13 +20,13 @@ const TableTwoHeaders = [ 
                         { text: 'S'},
                         { text: 'M'},
                         { text: 'L'}, 
-                        { text: 'XL'}, 
-                        { text: 'XXL'} 
+                        { text: 'XL'} 
+                        // { text: 'XXL'} 
                         ] 
 const TableTwoValues = [ 
-                        ['Measurement (BUST)', '31.5', '32.5', '33.5-34.5', '35.5-36.5', '37.-39', '40.5','42'],
-                        ['Measurement (WAIST)', '24', '25', '26-27', '28-29', '30-31.5', '33', '34.5'],
-                        ['Measurement (HIP)', '34', '35', '36-37', '38-39', '40-41.5', '43', '44.5']
+                        ['Measurement (BUST)', '31.5', '32.5', '33.5-34.5', '35.5-36.5', '37.-39', '40.5'], //,'42'
+                        ['Measurement (WAIST)', '24', '25', '26-27', '28-29', '30-31.5', '33'], //, '34.5'
+                        ['Measurement (HIP)', '34', '35', '36-37', '38-39', '40-41.5', '43'] //, '44.5'
                         ]
 
 const TableThreeHeaders = [ 

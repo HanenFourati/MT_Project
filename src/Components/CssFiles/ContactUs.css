@@ -28,3 +28,15 @@
  .contactus_icon_style{
     font-size: large;
  }
+ @media screen and (max-width: 992px) {
+    .contactus_style{
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+   
+    }
+    .contactus_box_style{
+        width: 99%;
+        padding: 0%;
+    }
+   }
